@@ -7,6 +7,7 @@
 
 import Foundation
 public struct DiscarablePackageTwo{
+    public init(){}
     public func testDiscardableTwo(){
         print("Discardable Two test")
     }

@@ -4,7 +4,7 @@ import Alamofire
 
 public struct Test{
     let value = ""
-    
+    public init(){}
     public func testDependency(){
         let allowsCellularAccess = AlamofireExtension.default.allowsCellularAccess
         print("Allows cellular access: ",allowsCellularAccess)
