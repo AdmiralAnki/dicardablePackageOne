@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 import Alamofire
 
-struct Test{
+public struct Test{
     let value = ""
     
     public func testDependency(){
